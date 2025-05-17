@@ -1,0 +1,28 @@
+.penk_app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  margin-top: 60px;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  min-width: 100px;
+  min-height: 100px;
+  opacity: 0.2;
+  z-index: 999;
+
+  border-radius: 10px;
+
+  padding: 10px;background: linear-gradient(to bottom, rgb(202, 199, 199), #f16fbb);
+}
+
+.penk_app:hover {
+  opacity: 1;
+}
+
+.penk_app span {
+  display: block;
+  margin: 10px;
+}
